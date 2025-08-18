@@ -17,6 +17,7 @@ nav{
     gap: 1.5vw;
     margin: auto 8vw auto 13vw;
     font-size: 20px;
+    color: gray;
 }
 
 .search{
@@ -31,4 +32,54 @@ nav{
 }
 .self{
 border-radius: 3px;
+background-color: black;
+color: white;
+}
+.firstback{
+    background-image: url(mainback.jpg);
+    width: 94vw;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 2.5vh;
+    z-index: -2;
+    margin: auto;
+    border-radius: 45px;
+    background-position: center center;
+}
+.darker{
+    background-color: black;
+    opacity: 0.44;
+    position: absolute;
+    width: 94vw;
+    z-index: -1;
+    border-radius: 45px;
+    height: 70vh;
+}
+.headtext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 94vw;
+    border-radius: 45px;
+    height: 70vh;
+    flex-direction: column;
+    color: white;
+    font-size: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text{
+font-size: 17px;
+height: 10vh;
+width: 22vw;
+color: white;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.rece{
+    height: 5vh;
+    width: 13VW;
+    font-size: 20px;
+    border-radius: 4vh;
+    background-color: orange;
 }
