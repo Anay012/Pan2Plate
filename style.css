@@ -1,0 +1,19 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 45px;
+    margin: 1.5vh auto auto auto;
+    width: 94vw;
+    height: 10vh;
+}
+.tab{
+    display: flex;
+    gap: 1vw;
+    margin: auto 7vw auto 15vw;
+}
